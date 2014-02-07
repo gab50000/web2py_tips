@@ -1,0 +1,3 @@
+In order to copy a partially commited web2py application directory into an existing welcome app, overwriting only changed files, use:
+
+rsync -a -f"+ */" -f"+ *" newapp/ welcomeapp/
